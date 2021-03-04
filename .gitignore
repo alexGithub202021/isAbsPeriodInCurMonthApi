@@ -1,0 +1,7 @@
+
+###> symfony/framework-bundle ###
+app/var/
+app/vendor/
+app/xdebug.log
+###< symfony/framework-bundle ###
+.history/
