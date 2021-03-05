@@ -26,14 +26,22 @@ En réponse à cette demande, j'ai créé une api en utilisant Symfony 5, le pro
                 }
 
 # install
-docker-compose up (docker et docker compose doivent être installés sur votre poste...)
+    docker-compose up 
+
+(docker et docker compose doivent être installés sur votre poste...)
 
 # tests unitaires
 se connecter au container php_base
     (via cli : docker exec -it php_base sh)
+
 lancer:
+    
     composer require --dev phpunit/phpunit ^9
+
 vérifier:
+    
     ./vendor/bin/phpunit --version
+
 lancer les TU:
+    
     ./vendor/bin/phpunit test/
