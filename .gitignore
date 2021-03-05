@@ -3,5 +3,8 @@
 app/var/
 app/vendor/
 app/xdebug.log
+app/.env*
+app/composer.lock
+app/.gitignore
 ###< symfony/framework-bundle ###
 .history/
