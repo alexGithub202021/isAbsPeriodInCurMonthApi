@@ -17,7 +17,7 @@ class DateHelper
         $endDateTimeStamp = strtotime($endDate);
 
         $range = array();
-        while ($beginDateTimeStamp < $endDateTimeStamp) {
+        while ($beginDateTimeStamp <= $endDateTimeStamp) {
             // on exclus les weekend
             if (!in_array(date("N", $beginDateTimeStamp), array(6, 7))) {
                 $newDate = date("Y-m-d", $beginDateTimeStamp);
